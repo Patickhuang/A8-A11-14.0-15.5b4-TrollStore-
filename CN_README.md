@@ -1,5 +1,3 @@
-A8-A11设备15.0-15.5b4系统无须越狱安装TrollStore永久签名个人整理傻瓜式操作，本人操作环境是MAC系统
-
 1.下载开源中的TrollStore.tar文件，链接：https://github.com/opa334/TrollStore/releases/tag/1.0.7
 
 2.运行 git clone https://github.com/verygenericname/SSHRD_Script --recursive && cd SSHRD_Script
@@ -34,7 +32,3 @@ A8-A11设备15.0-15.5b4系统无须越狱安装TrollStore永久签名个人整�
 12.输入reboot重启设备
 
 13.进入系统打开Tips就可以进行安装TrollStore
-
-
-注意事项：电脑必须翻墙和安装Xcode并安装Command Line Tools,安装命令如下： xcode-select --install
-（8872BC29-420D-4091-AF61-838003B48470）这个为我自己设备的TipsUDID,不要照抄
