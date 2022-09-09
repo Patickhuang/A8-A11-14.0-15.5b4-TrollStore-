@@ -15,7 +15,7 @@
 
 7.运行：mount_filesystems等待完成
 
-8.运行：find /mnt2/containers/Bundle/Application  -name Tips回车显示Tips完整信息，找到以后把UDID复制出来保存可进入下一步找到以后把UDID复制出来保存，输入cd /mnt2/containers/Bundle/Application 再次输入cd 8872BC29-420D-4091-AF61-838003B48470/Tips.app,即可进行下一步
+8.运行：find /mnt2/containers/Bundle/Application  -name Tips回车显示Tips完整信息，找到以后把UDID复制出来保存可进入下一步，输入cd /mnt2/containers/Bundle/Application 再次输入cd 8872BC29-420D-4091-AF61-838003B48470/Tips.app,即可进行下一步
 
 9.运行cd /mnt2/containers/Bundle/Application/7DC22AEE-4325-43B8-939A-B49EF1CF903D/Tips.app回车，再次运行mv Tips Tips.backup回车
 
