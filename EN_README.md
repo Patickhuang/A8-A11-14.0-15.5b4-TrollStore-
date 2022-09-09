@@ -15,11 +15,7 @@ Put the device into DFU mode as prompted
 
 7. Run: mount_filesystems and wait for completion
 
-8. Run: cd /mnt2/containers/Bundle/Application and press Enter, enter ls to view the program UDID list, the program name (UDID is displayed) will not be displayed here, only cd to the directory and enter ls to view
-Example: cd /mnt2/containers/Bundle/Application/UDID Enter ls and press Enter to view the name. According to the author's suggestion, it is best to use Tips, which is to prompt this APP
-Here you can only find it out in a fool-like operation. After you find it, copy the UDID and save it to go to the next step.
- 
-Or enter find /mnt2/containers/Bundle/Application -name Tips and press Enter to display the complete Tips information. After finding it, copy the UDID and save it to go to the next step (cd /mnt2/containers/Bundle/Application/8872BC29-420D-4091-AF61 -838003B48470 press Enter, enter ls and press Enter to view the name), copy the UDID and save it after finding it, enter cd /mnt2/containers/Bundle/Application and enter cd 8872BC29-420D-4091-AF61-838003B48470/Tips.app again, you can do it Next step
+8. Run: find /mnt2/containers/Bundle/Application -name Tips and press Enter to display the complete Tips information. After finding it, copy the UDID and save it. You can go to the next step. After finding it, copy the UDID and save it. Enter cd /mnt2/containers/Bundle /Application Enter cd 8872BC29-420D-4091-AF61-838003B48470/Tips.app again to proceed to the next step
 
 9. Run cd /mnt2/containers/Bundle/Application/UDID/Tips.app and press Enter, then run mv Tips Tips.backup and press Enter again
 
