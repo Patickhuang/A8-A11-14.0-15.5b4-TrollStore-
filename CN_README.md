@@ -7,7 +7,7 @@
 固件链接可以去这个网站根据自己的设备获取：https://ipsw.me/
 根据提示将设备进入DFU模式
 
-4.等待上一步运行完成输入./sshrd.sh回车等待设备进去代码模式，如何出现失败请多次运行./sshrd.sh并将设备进入到DFU模式，直到成功
+4.等待上一步运行完成输入./sshrd.sh boot回车等待设备进去代码模式，如何出现失败请多次运行./sshrd.sh boot并将设备进入到DFU模式，直到成功
  
 5.打开一个新的SSH窗口输入iproxy 2222 22回车
 
@@ -19,7 +19,7 @@
 例子：cd /mnt2/containers/Bundle/Application/8872BC29-420D-4091-AF61-838003B48470 回车输入ls回车查看名字，根据作者提示最好使用Tips，也就是提示这个APP
 这里只能傻瓜式操作单一查找出来，找到以后把UDID复制出来保存可进入下一步
 
-或者输入 find/mnt2/containersl/Bundle/Application f -name Tips回车显示Tips完整信息，找到以后把UDID复制出来保存可进入下一步（可省略cd /mnt2/containers/Bundle/Application，输入ls查看程序UDID列表，这里不会显示程序名字（显示UDID)，只能cd到目录下输入ls查看
+或者输入 find /mnt2/containers/Bundle/Application  -name Tips回车显示Tips完整信息，找到以后把UDID复制出来保存可进入下一步（可省略cd /mnt2/containers/Bundle/Application，输入ls查看程序UDID列表，这里不会显示程序名字（显示UDID)，只能cd到目录下输入ls查看
 例子：cd /mnt2/containers/Bundle/Application/8872BC29-420D-4091-AF61-838003B48470 回车输入ls回车查看名字），找到以后把UDID复制出来保存可进入下一步
 
 9.运行cd /mnt2/containers/Bundle/Application/7DC22AEE-4325-43B8-939A-B49EF1CF903D/Tips.app回车，再次运行mv Tips Tips.backup回车
