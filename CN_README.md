@@ -1,6 +1,7 @@
 教程开源地址：https://github.com/Patickhuang/TrollStore.git
 A8-A11设备15.0-15.5b4系统无须越狱安装TrollStore永久签名个人整理傻瓜式操作，本人操作环境是MAC系统
 
+视频教程：https://www.youtube.com/watch?v=SsvumuaZBT0
 
 1.运行 git clone https://github.com/verygenericname/SSHRD_Script --recursive && cd SSHRD_Script
 
