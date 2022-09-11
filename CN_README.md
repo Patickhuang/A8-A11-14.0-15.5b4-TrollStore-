@@ -7,6 +7,8 @@ A8-A11设备15.0-15.5b4系统无须越狱安装TrollStore永久签名个人整�
 2.运行 ./sshrd.sh https://updates.cdn-apple.com/2022SummerFCS/fullrestores/012-52889/B5338EBD-ED5C-4637-A829-6A269A2BD916/iPhone_5.5_P3_15.6.1_19G82_Restore.ipsw TrollStore Tips
 根据提示将设备进入DFU模式或提前进入DFU模式
 
+固件地址：https://ipsw.me/  自行选择自己的设备固件链接替换上面的https://updates.cdn-apple.com/2022SummerFCS/fullrestores/012-52889/B5338EBD-ED5C-4637-A829-6A269A2BD916/iPhone_5.5_P3_15.6.1_19G82_Restore.ipsw
+
 3.等待上一步运行完成输入./sshrd.sh boot回车等待设备进入代码模式，如何出现失败请多次运行./sshrd.sh boot并将设备进入到DFU模式，直到自动重启方可成功
  
 
